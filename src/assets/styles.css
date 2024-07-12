@@ -1,0 +1,15 @@
+body {
+  font-family: url(https://fonts.google.com/specimen/Nunito+Sans);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+body.dark-mode {
+  --color-background: #2b3945;
+  --color-text: #ffffff;
+}
+
+body.light-mode {
+  --color-background: #ffffff;
+  --color-text: #111517;
+}
